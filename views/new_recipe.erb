@@ -1,0 +1,23 @@
+<form action="new_recipe" method="post">
+  <fieldset>
+    <dl>
+      <dt><label for="name">Name</label></dt>
+      <dd><input type="text" id="name" name="name" /></dd>
+    </dl>
+
+    <dl>
+      <dt><label for="servings">Servings</label></dt>
+      <dd><input type="number" id="servings" name="servings" min="1" max="99" value="1" /></dd>
+    </dl>
+  </fieldset>
+
+  <fieldset>
+    <h3>Ingredients</h3>
+
+    <input type="checkbox" id="zucchini" name="ingredients" value="" />
+    <label for="zucchini">Zucchini</label>
+
+    <input type="checkbox" id="pesto" name="ingredients" value="" />
+    <label for="pesto">Pesto</label>
+  </fieldset>
+</form>
